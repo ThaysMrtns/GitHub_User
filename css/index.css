@@ -1,0 +1,31 @@
+body{
+background-color: rgb(235, 235, 235);
+}
+.header{
+    background-color:#5DB2C9;
+    height: 60px;
+    padding: 5px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -22px;
+}
+.header-display{
+    display:flex;
+}
+
+.header-titulo{
+    margin-right: 0px;
+    margin-left: 1%;
+    color: white;
+}
+.conteudo-principal{
+    margin-top: 40px;
+}
+.btn{
+    border: none;
+    background-color: #5DB2C9;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+}
+
