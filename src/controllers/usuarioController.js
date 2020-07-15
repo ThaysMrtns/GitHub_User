@@ -15,7 +15,6 @@ class UsuarioController{
             requisicao.open("GET", `https://api.github.com/users/${userName.value}`, false);
             requisicao.send();
             let dados = JSON.parse(requisicao.responseText);
-            console.log(dados);
 
             //Guardar os dados buscados dentro de um objeto instanciado pela model usuário
             let usuario = new Usuario(dados.name, dados.bio, dados.location, dados.html_url);
